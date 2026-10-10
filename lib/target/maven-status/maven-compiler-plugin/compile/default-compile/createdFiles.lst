@@ -1,0 +1,14 @@
+com\critical_hit\lib\dto\usuario\UsuarioRequest.class
+com\critical_hit\lib\dto\usuario\UsuarioResponse.class
+com\critical_hit\lib\dto\jogo\JogoResponse.class
+com\critical_hit\lib\dto\usuario\RegistrarCompraRequest.class
+com\critical_hit\lib\dto\jogo\JogoRequest.class
+com\critical_hit\lib\dto\loja\ItemCarrinhoResponse.class
+com\critical_hit\lib\dto\usuario\LoginRequest.class
+com\critical_hit\lib\enums\StatusCarrinho.class
+com\critical_hit\lib\dto\erro\ErroResponse.class
+com\critical_hit\lib\dto\loja\CompraRequest.class
+com\critical_hit\lib\dto\loja\CarrinhoResponse.class
+com\critical_hit\lib\dto\usuario\JogoAdquiridoResponse.class
+com\critical_hit\lib\LibApplication.class
+com\critical_hit\lib\dto\usuario\DepositoRequest.class
