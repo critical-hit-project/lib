@@ -1,8 +1,12 @@
 com\critical_hit\lib\dto\usuario\UsuarioRequest.class
+com\critical_hit\lib\dto\usuario\AtualizarUsuarioRequest.class
 com\critical_hit\lib\dto\usuario\UsuarioResponse.class
 com\critical_hit\lib\dto\jogo\JogoResponse.class
 com\critical_hit\lib\dto\usuario\RegistrarCompraRequest.class
+com\critical_hit\lib\exeption\JogoIndisponivelException.class
+com\critical_hit\lib\exeption\advice\GlobalControllerAdvice.class
 com\critical_hit\lib\dto\jogo\JogoRequest.class
+com\critical_hit\lib\exeption\JogoNaoEncontradoException.class
 com\critical_hit\lib\dto\loja\ItemCarrinhoResponse.class
 com\critical_hit\lib\dto\usuario\LoginRequest.class
 com\critical_hit\lib\enums\StatusCarrinho.class

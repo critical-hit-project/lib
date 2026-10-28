@@ -13,12 +13,14 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   jogo-service:
-    build: ../../jogo/
+    image: critcal-hit-jogo:1.0.0
+    build: ../jogo/
     environment:
       SERVER_PORT: 8081
-      DB_URL: jdbc:postgresql://postgres:5435/critical_hit?currentSchema=jogo
+      DB_URL: jdbc:postgresql://postgres:5432/critical_hit?currentSchema=jogo
       DB_USER: postgres
       DB_PASSWORD: postgres
+      SPRING_JPA_HIBERNATE_DDL_AUTO: none
     ports:
       - "8081:8081"
 
